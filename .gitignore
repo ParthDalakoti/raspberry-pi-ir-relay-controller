@@ -1,0 +1,27 @@
+# Embedded Build Artifacts
+*.hex
+*.bin
+*.elf
+*.o
+*.d
+*.out
+*.map
+*.lst
+
+# IDE & Toolchain files
+build/
+.pio/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+venv/
+.venv/
